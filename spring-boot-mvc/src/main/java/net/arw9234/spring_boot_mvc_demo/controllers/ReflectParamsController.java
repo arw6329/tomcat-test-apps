@@ -10,6 +10,6 @@ public class ReflectParamsController {
     public String reflect(
         @RequestParam(value = "param") String param
     ) {
-        return "I am a Spring application! You submitted: " + param;
+        return "<pre>I am a Spring application! You submitted: " + param + "</pre>";
     }
 }

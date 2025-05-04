@@ -7,6 +7,6 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <h2>I am an Apache Struts 2 app! <s:property value="messageStore.message" /></h2>
+    <pre>I am an Apache Struts 2 app! <s:property value="messageStore.message" /></pre>
   </body>
 </html>
